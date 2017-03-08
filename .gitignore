@@ -1,0 +1,11 @@
+/src/diana_compose_email
+/src/*.o
+/src/compose_email_*.qm
+/src/compose_email_moc.cc
+/src/compose_email_rcc.cc
+/debian/debhelper-build-stamp
+/debian/diana-compose-email/
+/debian/diana-compose-email.debhelper.log
+/debian/diana-compose-email.substvars
+/debian/files
+/obj-x86_64-linux-gnu/
