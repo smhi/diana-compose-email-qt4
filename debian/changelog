@@ -1,0 +1,41 @@
+diana-compose-email (0.7-1) unstable; urgency=low
+
+  * translation updates
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Fri, 20 Jan 2017 08:09:10 +0100
+
+diana-compose-email (0.6-1) unstable; urgency=low
+
+  * cmake build problems
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Wed, 18 Jan 2017 10:12:14 +0200
+
+diana-compose-email (0.5-1) unstable; urgency=low
+
+  * cmake build problems
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Wed, 18 Jan 2017 10:11:12 +0200
+
+diana-compose-email (0.4-1) unstable; urgency=low
+
+  * CMake build, manpage, icon
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 17 Jan 2017 14:15:16 +0200
+
+diana-compose-email (0.3-1) unstable; urgency=low
+
+  * bugfix translation files
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 16 Jan 2017 15:45:15 +0200
+
+diana-compose-email (0.2-1) unstable; urgency=low
+
+  * support for dragging of attachments to other programs
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Mon, 16 Jan 2017 15:00:15 +0200
+
+diana-compose-email (0.1-1) unstable; urgency=low
+
+  * extracted from diana
+
+ -- Alexander Bürger <alexander.buerger@met.no>  Tue, 03 Jan 2017 08:00:08 +0200

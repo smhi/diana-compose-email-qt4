@@ -1,0 +1,38 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.Dd Jan 17, 2017
+.Os
+.Dt DIANA_COMPOSE_EMAIL 1
+.Sh NAME
+.Nm diana_compose_email
+.Nd MET Norway email sender for diana
+.Sh SYNOPSIS
+.Nm
+[\fB\-tmpdir\fR \fItemporary-dir\fR]
+[\fB\-from\fR \fIemail-from\fR]
+--
+[\fIattachment files ...\fR]
+.Sh DESCRIPTION
+.Nm
+is a email sender for images and movies made by diana.
+.Sh INVOCATION
+It is generally recommended to use this program in \fBdiana\fR using a
+\fBSAVETO\fR line in the \fBEXPORT_COMMANDS\fR section of the diana
+setup, and to invoke
+.Nm
+via a script that sets \fB-from\fR and starts this program as
+background process. This program will invoke \fB/usr/lib/sendmail\fR
+to send email. Therefore, you will have to install a sendmail program,
+for example \fBnullmailer\fR.
+.Pp
+If \fB-from\fR is not given, \fBdiana_noreply@met.no\fR will be used.
+.Pp
+If \fB-tmpdir\fR is given,
+.Nm
+will remove all files in the specified directory at exit.
+.Sh SEE ALSO
+https://github.com/metno/diana-compose-email
+https://github.com/metno/diana
+.Sh AUTHOR
+diana_compose_email is written at the Norwegian Meteorological Institute.
+This manual page was written by Alexander B\(:urger
+<alexander.buerger@met.no> in January 2017.

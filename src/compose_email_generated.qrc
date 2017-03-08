@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="translations">
+    <file>compose_email_de.qm</file>
+    <file>compose_email_es.qm</file>
+    <file>compose_email_nb.qm</file>
+    <file>compose_email_ru.qm</file>
+    <file>compose_email_sv.qm</file>
+  </qresource>
+</RCC>

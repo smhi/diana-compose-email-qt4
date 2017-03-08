@@ -1,0 +1,17 @@
+Source: diana-compose-email
+Maintainer: Alexander Bürger <alexander.buerger@met.no>
+Section: misc
+Priority: extra
+Standards-Version: 3.9.6
+Build-Depends: debhelper (>= 9), cmake,
+ libqt4-dev, libqt4-dev-bin | qt4-qmake
+
+Package: diana-compose-email
+Architecture: any
+Depends: nullmailer | mail-transport-agent, ${shlibs:Depends}
+Description: send email with attachments
+ Shows a dialog to enter email recipients and text,
+ and permits sending an email.
+ .
+ This program is intended for use by diana's export function
+ and is therefore expecting command line parameters as used there.

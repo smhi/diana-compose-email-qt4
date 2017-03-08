@@ -1,0 +1,19 @@
+This package was debianized by Alexander Bürger
+<alexander.buerger@met.no> in January 2017.
+
+Upstream Authors:
+
+    Norwegian Meteorological Institute
+    Postboks 43 Blindern
+    N-0313 OSLO
+    NORWAY
+    email: alexander.buerger@met.no
+
+Copyright: 
+
+    Copyright (C) 2017 met.no
+
+License:
+    
+    The Debian packaging is (C) 2017, met.no and is licensed under
+    the GPL, see `/usr/share/common-licenses/GPL'.
